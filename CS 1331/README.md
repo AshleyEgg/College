@@ -1,1 +1,1 @@
-Files for CS 1331 
+Files for CS 1331 Fall 2017
