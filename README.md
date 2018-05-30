@@ -1,3 +1,3 @@
 # College
 
-#This is a file of all the 
+Folder of code for my college classes.
