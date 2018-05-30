@@ -1,0 +1,114 @@
+[
+  {
+    "parentId": "[engine:junit-jupiter]/[class:edu.gatech.github.cs2110.hw1.grader.XorGrader]",
+    "displayName": "test_xor_1_1_result()",
+    "status": "PASS",
+    "failReason": "",
+    "failDescription": ""
+  },
+  {
+    "parentId": "[engine:junit-jupiter]/[class:edu.gatech.github.cs2110.hw1.grader.XorGrader]",
+    "displayName": "test_xor_0_1_result()",
+    "status": "PASS",
+    "failReason": "",
+    "failDescription": ""
+  },
+  {
+    "parentId": "[engine:junit-jupiter]/[class:edu.gatech.github.cs2110.hw1.grader.XorGrader]",
+    "displayName": "test_xor_1_0_result()",
+    "status": "PASS",
+    "failReason": "",
+    "failDescription": ""
+  },
+  {
+    "parentId": "[engine:junit-jupiter]/[class:edu.gatech.github.cs2110.hw1.grader.XorGrader]",
+    "displayName": "test_xor_0_0_result()",
+    "status": "PASS",
+    "failReason": "",
+    "failDescription": ""
+  },
+  {
+    "parentId": "[engine:junit-jupiter]/[class:edu.gatech.github.cs2110.hw1.grader.XorGrader]",
+    "displayName": "test_number_components()",
+    "status": "PASS",
+    "failReason": "",
+    "failDescription": ""
+  },
+  {
+    "parentId": "[engine:junit-jupiter]/[class:edu.gatech.github.cs2110.hw1.grader.UmbrellaGrader]",
+    "displayName": "test_umbrella_0_1_0_result()",
+    "status": "PASS",
+    "failReason": "",
+    "failDescription": ""
+  },
+  {
+    "parentId": "[engine:junit-jupiter]/[class:edu.gatech.github.cs2110.hw1.grader.UmbrellaGrader]",
+    "displayName": "test_umbrella_1_1_0_result()",
+    "status": "PASS",
+    "failReason": "",
+    "failDescription": ""
+  },
+  {
+    "parentId": "[engine:junit-jupiter]/[class:edu.gatech.github.cs2110.hw1.grader.UmbrellaGrader]",
+    "displayName": "test_umbrella_0_0_0_result()",
+    "status": "PASS",
+    "failReason": "",
+    "failDescription": ""
+  },
+  {
+    "parentId": "[engine:junit-jupiter]/[class:edu.gatech.github.cs2110.hw1.grader.UmbrellaGrader]",
+    "displayName": "test_umbrella_1_0_0_result()",
+    "status": "PASS",
+    "failReason": "",
+    "failDescription": ""
+  },
+  {
+    "parentId": "[engine:junit-jupiter]/[class:edu.gatech.github.cs2110.hw1.grader.UmbrellaGrader]",
+    "displayName": "test_umbrella_0_1_1_result()",
+    "status": "PASS",
+    "failReason": "",
+    "failDescription": ""
+  },
+  {
+    "parentId": "[engine:junit-jupiter]/[class:edu.gatech.github.cs2110.hw1.grader.UmbrellaGrader]",
+    "displayName": "test_umbrella_1_1_1_result()",
+    "status": "PASS",
+    "failReason": "",
+    "failDescription": ""
+  },
+  {
+    "parentId": "[engine:junit-jupiter]/[class:edu.gatech.github.cs2110.hw1.grader.UmbrellaGrader]",
+    "displayName": "test_umbrella_0_0_1_result()",
+    "status": "PASS",
+    "failReason": "",
+    "failDescription": ""
+  },
+  {
+    "parentId": "[engine:junit-jupiter]/[class:edu.gatech.github.cs2110.hw1.grader.UmbrellaGrader]",
+    "displayName": "test_umbrella_1_0_1_result()",
+    "status": "PASS",
+    "failReason": "",
+    "failDescription": ""
+  },
+  {
+    "parentId": "[engine:junit-jupiter]/[class:edu.gatech.github.cs2110.hw1.grader.UmbrellaGrader]",
+    "displayName": "test_number_components()",
+    "status": "PASS",
+    "failReason": "",
+    "failDescription": ""
+  },
+  {
+    "parentId": "[engine:junit-jupiter]/[class:edu.gatech.github.cs2110.hw1.grader.NumberGrader]",
+    "displayName": "test_number_file_exists()",
+    "status": "PASS",
+    "failReason": "",
+    "failDescription": ""
+  },
+  {
+    "parentId": "[engine:junit-jupiter]/[class:edu.gatech.github.cs2110.hw1.grader.HeadshotGrader]",
+    "displayName": "test_headshot_dimensions()",
+    "status": "PASS",
+    "failReason": "",
+    "failDescription": ""
+  }
+]
