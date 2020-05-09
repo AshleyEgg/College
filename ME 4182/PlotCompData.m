@@ -130,8 +130,7 @@ for k = 1 : length(concrete)
     if(disp(1) ~= 0)
         disp = disp - disp(1);
     end   
-    %Convert to Stress and strain- should update to vary area based on mold
-    %type
+    %Convert to Stress and strain
     stress = (force/v3_area)*10^6; %kPa
     strain = disp/v3_thick; %Unitless
     ults = [ults, max(stress)];
@@ -162,8 +161,7 @@ for k = 1 : length(mixed)
     if(disp(1) ~= 0)
         disp = disp - disp(1);
     end   
-    %Convert to Stress and strain- should update to vary area based on mold
-    %type
+    %Convert to Stress and strain
     stress = (force/v4_area)*10^6; %kPa
     strain = (disp/v4_thick); %Unitless
     ults = [ults, max(stress)];
@@ -263,31 +261,7 @@ ylabel('Young''s Modulus [MPa]');
 title('Young''s Modulus Comparison');
 
 %% Ultimate Strength
-
 figure();
 b = bar(ults);
-% b.FaceColor = 'flat';
-% b.CData(1,:) = [0.85 0.3 0.1];
-% b.CData(2,:) = [0.85 0.3 0.1];
-% b.CData(3,:) = [0.85 0.3 0.1];
-% b.CData(4,:) = [0.85 0.3 0.1];
-% b.CData(5,:) = [1 0.84 0];
-% b.CData(6,:) = [1 0.84 0];
-% b.CData(7,:) = [1 0.84 0];
-% b.CData(8,:) = [1 0.84 0];
-% 
-% hold on;
-% % colors -- desired color for each type/class
-% colors=[[0.85 0.3 0.1]; ...                         % Red for concrete
-%         [1 0.84 0]; ...                             % Green for mortar
-%         [0 0.45 0.74]];                             % Blue for mixed
-% nColors=size(colors,1);                             % make variable so can change easily
-% labels={'Concrete';'Mortar';'Mixed'};
-% hBLG = bar(nan(2,nColors));         % the bar object array for legend
-% for i=1:nColors
-%   hBLG(i).FaceColor=colors(i,:);
-% end
-% hLG=legend(hBLG,labels,'location','best');
-
 ylabel('Ultimate Strength [kPa]');
 title('Ultimate Strength Comparison');
