@@ -1,0 +1,9 @@
+function [badA, badO]= applesAndOranges(numA,numO,goodA,goodO)
+%Calculates the probability of picking bad fruit from the total bucket of
+%fruit.
+total=numA+numO;
+numBA = numA-goodA;
+numBO = numO-goodO;
+badA = round((1-(goodA./total)).*100,2);
+badO = round((1-(goodO./total)).*100,2);
+end
