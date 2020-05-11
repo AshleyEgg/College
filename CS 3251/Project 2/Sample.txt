@@ -1,0 +1,36 @@
+Sample.txt- An example program flow showing what happens with my program when it is run.
+
+									Server
+										$ ./ttweetrv 8080
+Client 1									Finished making a socket. Now listening...	
+	$ ./ttweetcl 127.0.0.1 8080 Matt					Checking username: Matt
+	  Username valid, Connection Established.				Matt is subscribing.
+	  Command: subscribe #3251
+	  Subscribe successful
+
+Client 2
+	$ ./ttweetcl 127.0.0.1 8080 Raf						Checking username: Raf
+	  username legal, connection established.
+	  Command: subscribe #ALL						Raf is subscribing.
+	  Subscribe successful
+	  Command: tweet “Hello from client 2” #3251				Raf it tweeting.
+	  Hello from client 2
+	  Tweet sucessful.
+
+Client 1
+	  Command: timeline
+	  Timeline
+	  Command: timeline
+	  Timeline
+	  Command: tweet “Hello from client 1” #random				Sending tweet(Hello from client 2) with hashtag #3251 to user Matt
+										Sending tweet(Hello from client 2) with hashtag #3251 to user Raf
+										Matt is tweeting
+	  Hello from client 2
+
+Client 2
+	  Command: timeline
+	  Timeline								Sending tweet(Hello from client ) with hashtag #random to user Raf
+	  Command: exit								Raf is exiting.
+
+Client 1
+	  Command: exit								Matt is exiting.
