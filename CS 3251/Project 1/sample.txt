@@ -1,0 +1,84 @@
+Results of Test Scenarios:
+
+1- Run Client in upload mode and Server not running
+	Client: ttweetcl -u 127.0.0.1 13005 "Hello World!"
+		connect() failed: Connection refused
+	Server:(not running)
+
+2- Run Client in download mode and Server not running
+	Client: ttweetcl -d 127.0.0.1 13005
+		connect() failed: Connection refused
+	Server:(not running)
+
+4- Run Client in download mode and Server running on port 13005
+	Client: ttweetcl -d 127.0.0.1 13005
+		Recieved: Empty Message
+	Server: ttweetsrv 13005
+		Handling client 127.0.0.1
+		Current Message: Empty Message
+		Response: Empty Message
+		Closing Connection.
+
+5- Run Client in upload mode and Server running on port 13005
+	Client: ttweetcl -u 127.0.0.1 13005 "Would you like me to give you a formula for success? It’s quite simple, really: Double 	your rate of failure. You are thinking of failure as the enemy of success. But it isn’t at all. You can be discouraged by 		failure or you can learn from it, so go ahead and make mistakes. Make all you can. Because remember that’s where you will 		find success.-Thomas J. Watson"
+		Error: Message must be less than 150 characters.
+	Server: ttweetsrv 13005
+
+6- Run Client in download mode and Server running on port 13005
+	Client: ttweetcl -d 127.0.0.1 13005
+		Recieved: Empty Message		
+	Server: ttweetsrv 13005
+		Handling client 127.0.0.1
+		Current Message: Empty Message
+		Response: Empty Message
+		Closing Connection.		
+
+7- Run Client in upload mode and Server running on port 13005
+	Client: ttweetcl -u 127.0.0.1 13005 "Hello World!"
+		Recieved: Upload Successful
+	Server: ttweetsrv 13005
+		Handling client 127.0.0.1
+		Current Message: Hello World!
+		Response: Upload Successful
+		Closing Connection.			
+
+8- Run Client in download mode and Server running on port 13005
+	Client: ttweetcl -d 127.0.0.1 13005
+		Recieved: Hello World!
+	Server: ttweetsrv 13005
+		Handling client 127.0.0.1
+		Current Message: Hello World!
+		Response: Hello World!
+		Closing Connection.
+
+9- Run Client in upload mode and Server running on port 13005
+	Client: ttweetcl -u 127.0.0.1 13005 "How are you today?"
+		Recieved: Upload Successful
+	Server: ttweetsrv 13005
+		Handling client 127.0.0.1
+		Current Message: How are you today?
+		Response: Upload Successful
+		Closing Connection.
+
+10- Run Client in download mode and Server running on port 13005
+	Client: ttweetcl -d 127.0.0.1 13005
+		Recieved: How are you today?
+	Server: ttweetsrv 13005
+		Handling client 127.0.0.1
+		Current Message: How are you today?
+		Response: How are you today?
+		Closing Connection.
+
+11- Run Client in upload mode and Server running on port 13005
+	Client: ttweetcl -u 127.0.0.1 13005 "Every great dream begins with a dreamer. Always remember, you have within you the 		  strength, the patience, and the passion to reach for the stars to change the world.-Harriet Tubman"
+		Error: Message must be less than 150 characters.	
+	Server: ttweetsrv 13005
+
+12- Run Client in download mode and Server running on port 13005
+	Client: ttweetcl -d 127.0.0.1 13005
+		Recieved: How are you today?
+	Server: ttweetsrv 13005
+		Handling client 127.0.0.1
+		Current Message: How are you today?
+		Response: How are you today?
+		Closing Connection.
