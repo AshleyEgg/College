@@ -1,0 +1,7 @@
+Name, Firepower
+STA-1, 200
+AMX 50 Foch 155, 395
+T110E5, 258
+TVP 50/51, 310
+IS-7, 260
+Waffentrager auf E-100, 320

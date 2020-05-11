@@ -1,0 +1,11 @@
+Name, Plate thickness (mm), Angle (degrees)
+Maus, 250, 45
+IS-3, 140, 42
+VK 45.02(B), 200, 48
+T-34-3, 200, 15
+Type 5 Heavy, 285, 0
+T-34, 60, 45
+AMX 50B, 65, 45
+E-100, 250, 5
+E50M, 180, 55
+113, 120, 68

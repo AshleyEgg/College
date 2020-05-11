@@ -1,0 +1,9 @@
+bun: $0.01
+lettuce: $0.20
+tomato: $20.00
+burger: $4.00
+kale: $1.00
+pickles: $500.00
+onions: $0.50
+cheese: $1.50
+bacon: $5.00

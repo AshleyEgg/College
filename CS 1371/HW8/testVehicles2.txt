@@ -1,0 +1,7 @@
+Name, Firepower
+M26 Pershing, 160
+Jagdpanzer E-100, 420
+T-44-100, 175
+FV215b, 328
+Lowe, 238
+T49, 65

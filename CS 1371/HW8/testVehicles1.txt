@@ -1,0 +1,7 @@
+Name, Firepower
+Jagdpanzer E-100, 420
+IS-7, 260
+T49, 65
+STA-1, 200
+T20, 90
+FV215b, 328
